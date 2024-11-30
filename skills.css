@@ -1,0 +1,94 @@
+/* Root Variables for Color Palette */
+:root {
+    --black: #292421;
+    --copper: #A75F37;
+    --pink: #CA8E82;
+    --tan: #D9B99F;
+    --blush: #F2D6CE;
+    --vanilla: #F2E7DD;
+    --green: #7A958F;
+    --mint: #BAE0DA;
+    --nav-green: #00FFA8;
+  }
+  
+  /* General Styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--black);
+    color: var(--vanilla);
+  }
+  
+  nav {
+    background-color: var(--nav-green);
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: var(--copper);
+  }
+  
+  /* Skills Section */
+  #skills {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  #skills h2 {
+    font-size: 2.5em;
+    color: var(--copper);
+    margin-bottom: 20px;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .skill-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skill-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-item img:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--pink);
+    color: var(--vanilla);
+  }
+  

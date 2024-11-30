@@ -1,0 +1,111 @@
+/* Root Variables for Color Palette */
+:root {
+    --black: #292421;
+    --copper: #A75F37;
+    --pink: #CA8E82;
+    --tan: #D9B99F;
+    --blush: #F2D6CE;
+    --vanilla: #F2E7DD;
+    --green: #7A958F;
+    --mint: #BAE0DA;
+    --nav-green: #00FFA8;
+  }
+  
+  /* General Styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--vanilla);
+    color: var(--black);
+  }
+  
+  nav {
+    background-color: var(--nav-green);
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: var(--copper);
+  }
+  
+  /* About Page Layout */
+  .about-layout {
+    display: flex;
+    align-items: flex-start; /* Aligns text and image to the top */
+    gap: 40px; /* Increases space between image and text */
+    flex-wrap: wrap;
+    padding: 50px 20px;
+  }
+  
+  .about-photo {
+    flex: 1;
+    max-width: 250px; /* Adjusted image size for better balance */
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid var(--copper);
+    object-fit: cover;
+  }
+  
+  .about-content {
+    flex: 3; /* Ensures the text container is larger */
+    text-align: left;
+  }
+  
+  .about-content h2 {
+    font-size: 2.5em;
+    color: var(--copper);
+    margin-bottom: 20px;
+  }
+  
+  .about-content h3 {
+    font-size: 1.8em;
+    color: var(--copper); /* Updated to match "About Me" color */
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .about-content p {
+    font-size: 1em; /* Keeps the text smaller for readability */
+    line-height: 1.6; /* Adjusted for spacing */
+    margin-bottom: 15px;
+  }
+  
+  .about-content ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+  }
+  
+  .about-content ul li {
+    font-size: 0.9em; /* Keeps list items slightly smaller */
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--pink);
+    color: var(--vanilla);
+  }
+  

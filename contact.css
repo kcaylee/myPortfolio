@@ -1,0 +1,90 @@
+/* Root Variables for Color Palette */
+:root {
+    --black: #292421;
+    --copper: #A75F37;
+    --pink: #CA8E82;
+    --tan: #D9B99F;
+    --blush: #F2D6CE;
+    --vanilla: #F2E7DD;
+    --green: #7A958F;
+    --mint: #BAE0DA;
+    --nav-green: #00FFA8;
+  }
+  
+  /* Contact Page Styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--vanilla);
+    color: var(--black);
+  }
+  
+  nav {
+    background-color: var(--nav-green);
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: var(--copper);
+  }
+  
+  #contact {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 2.5em;
+    color: var(--copper);
+    margin-bottom: 20px;
+  }
+  
+  .contact-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact-links li {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+  }
+  
+  .contact-links a {
+    color: var(--copper);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-links a:hover {
+    color: var(--green);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--pink);
+    color: var(--vanilla);
+  }
+  
