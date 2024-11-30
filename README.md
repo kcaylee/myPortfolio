@@ -25,10 +25,36 @@ Features a clean, visually appealing layout with a list of skills.
 Contact Me 📬:
 
 Provides easy access to connect with me through:
+
 Email: carstenskaylee@gmail.com
+
 GitHub: github.com/kcaylee
+
 LinkedIn: www.linkedin.com/in/kaylee-carstens-015a22237
 
 Navigation 🌐:
 
 Fully responsive navigation bar to allow easy movement between sections: Home, About Me, Skills, and Contact Me.
+
+Technologies Used 🛠️
+
+HTML: Structure and content of the website.
+
+CSS: Styling and layout, with a color palette inspired by soft tones of pink, mint, copper, and vanilla.
+
+JavaScript: Interactive features and form validation.
+
+Design Highlights 🎨
+
+Responsive Design 📱: The website is optimized for different screen sizes to ensure a seamless user experience across devices.
+
+Clean Typography and Layout 📝: A focus on readability and aesthetics with clear headings and structured content.
+
+Custom Color Palette 🎨:
+
+Pink: #CA8E82 ,
+Copper: #A75F37 ,
+Mint: #BAE0DA ,
+Vanilla: #F2E7DD
+
+
